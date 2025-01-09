@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body {
@@ -10,7 +9,7 @@ body {
 }
 
 .navbar-brand {
-/* text-align: center;
+    /* text-align: center;
 align-items: center; */
     font-size: larger;
     font-weight: bold;
@@ -238,25 +237,28 @@ img {
     color: rgb(116, 57, 224);
 }
 
-#menu {
-    background-color: aliceblue;
-    margin-top: 15rem;
+.dropdown-main {
+
+    background-color: rgb(243, 249, 255);
+    border: none;
+    border-radius: 8px;
+    align-self: center;
+    margin-top: 5rem;
+    margin-left: 2rem;
     list-style-type: none;
     display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: auto;
+    padding: 1rem;
 }
-body.dark-mode {
-    background-image:url(../images/bg-footer-dark-1440w.jpg);
-    color: white;
+
+.icc {
+    background: linear-gradient(45deg, rgb(73, 115, 253), rgb(120, 4, 245));
+    background-clip: text;
+    color: transparent;
 }
-/* #lightModeButton {
-    display: none;
-}
-body.dark-mode #darkModeButton {
-    display: none;
-}
-body.dark-mode #lightModeButton {
-    display: inline-block;
-} */
+
+
 
 
 /* keyframes */
@@ -422,13 +424,13 @@ body.dark-mode #lightModeButton {
 
     .card4 {
         width: 398px;
-        height:495px;
+        height: 495px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.45);
         border-bottom: 0.75px solid #15496c;
     }
 
     .skills {
-        font-size: 0.7rem; 
+        font-size: 0.7rem;
     }
 
     .bt {
@@ -449,10 +451,16 @@ body.dark-mode #lightModeButton {
 
     .dropdown-tgle {
         display: block;
+        position: relative;
     }
 
-    #menu {
+    .dropdown:hover .dropdown-main {
+        display: block;
+    }
+
+    .dropdown:hover .dropdown-tgle {
         display: none;
     }
+
 
 }
