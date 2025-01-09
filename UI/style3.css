@@ -222,6 +222,27 @@ h3{
     display: none;
     color: rgb(116, 57, 224);
 }
+
+.dropdown-main {
+
+    background-color: rgb(243, 249, 255);
+    border: none;
+    border-radius: 8px;
+    align-self: center;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    list-style-type: none;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: auto;
+    padding: 1rem;
+}
+
+.icc {
+    background: linear-gradient(45deg, rgb(73, 115, 253), rgb(120, 4, 245));
+    background-clip: text;
+    color: transparent;
+}
 /* KeyFrame */
 @keyframes Fade {
     0% {
@@ -283,4 +304,46 @@ h3{
     .dropdown-tgle {
         display: block;
     }
+    .cd2{
+        height: 22rem;
+        width: 30rem;    }
+
+    .dropdown:hover .dropdown-main {
+        display: block;
+    }
+
+    .dropdown:hover .dropdown-tgle {
+        display: none;
+    }
+    .cd3{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .p{
+        width: 100%;
+        text-align: justify;
+
+    }
+    .cd1{
+        margin-top: 5rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h3{
+        width: 100%;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    
+}
+@media (max-width: 452px) {
+    .cd2{
+        height: 19rem;
+        width: 23rem;    }
+    
+   
 }

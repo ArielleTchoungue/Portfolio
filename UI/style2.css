@@ -9,11 +9,12 @@ body {
 }
 
 .navbar-brand {
-/* text-align: center;
+    /* text-align: center;
 align-items: end; */
     font-size: larger;
     font-weight: bold;
 }
+
 .img {
     object-fit: cover;
 }
@@ -267,8 +268,9 @@ h2 {
     padding-left: 2%;
     padding-right: 2%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    animation: shake 0.3s ease-in-out ;
+    animation: shake 0.3s ease-in-out;
 }
+
 .dropdown-tgle {
     display: none;
     color: rgb(116, 57, 224);
@@ -301,6 +303,32 @@ h2 {
     border-bottom: #15496c solid 1px;
 
 }
+.dropdown-tgle {
+    display: none;
+    color: rgb(116, 57, 224);
+}
+
+.dropdown-main {
+
+    background-color: rgb(243, 249, 255);
+    border: none;
+    border-radius: 8px;
+    align-self: center;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    list-style-type: none;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: auto;
+    padding: 1rem;
+}
+
+.icc {
+    background: linear-gradient(45deg, rgb(73, 115, 253), rgb(120, 4, 245));
+    background-clip: text;
+    color: transparent;
+}
+
 
 /* keyframe */
 
@@ -359,15 +387,15 @@ h2 {
     .car1 {
         height: 21rem;
         width: 35rem;
-       
+
         animation: slideAndFade1 1s ease-in forwards;
 
     }
-    
+
     .car2 {
         height: 21rem;
         width: 35rem;
-        
+
         animation: slideAndFade 1s ease-in forwards;
 
     }
@@ -375,7 +403,7 @@ h2 {
     .car3 {
         height: 21rem;
         width: 35rem;
-       
+
         animation: slideAndFade1 1s ease-in forwards;
 
     }
@@ -388,9 +416,10 @@ h2 {
     }
 
     .cd1 {
-        width:  65%;      
+        width: 65%;
         margin-top: 10%;
     }
+
     .h2 {
         font-size: 2rem;
     }
@@ -408,6 +437,7 @@ h2 {
         padding: 0.8rem;
 
     }
+
     .c6 {
         width: 100%;
         text-align: center;
@@ -416,9 +446,10 @@ h2 {
 
     .ist {
         display: flex;
-        flex-direction: column;  
-        justify-content: center;  
+        flex-direction: column;
+        justify-content: center;
     }
+
     .cc {
         display: flex;
         flex-direction: column;
@@ -440,18 +471,19 @@ h2 {
         align-self: center;
         margin-top: 0;
     }
+
     .car1 {
         height: 21rem;
         width: 33rem;
-       
+
         animation: slideAndFade1 1s ease-in forwards;
 
     }
-    
+
     .car2 {
         height: 21rem;
         width: 33rem;
-        
+
         animation: slideAndFade 1s ease-in forwards;
 
     }
@@ -459,7 +491,7 @@ h2 {
     .car3 {
         height: 21rem;
         width: 33rem;
-       
+
         animation: slideAndFade1 1s ease-in forwards;
 
     }
@@ -469,6 +501,15 @@ h2 {
         width: 33rem;
         animation: slideAndFade 1s ease-in forwards;
 
+    }
+    h1 {
+        font-size: 3.6rem;
+    }
+    
+    h2 {
+        font-size: 1.3rem;
+        line-height: 2.2rem;
+        color: rgb(0, 17, 74);
     }
 
 
@@ -477,35 +518,36 @@ h2 {
 
 @media (max-width: 554px) {
     .car1 {
-        height: 21rem;
+        height: 20rem;
         width: 30rem;
-       
+
         animation: slideAndFade1 1s ease-in forwards;
 
     }
-    
+
     .car2 {
-        height: 21rem;
+        height: 20rem;
         width: 30rem;
-        
+
         animation: slideAndFade 1s ease-in forwards;
 
     }
 
     .car3 {
-        height: 21rem;
+        height: 20rem;
         width: 30rem;
-       
+
         animation: slideAndFade1 1s ease-in forwards;
 
     }
 
     .car4 {
-        height: 21rem;
+        height: 20rem;
         width: 30rem;
         animation: slideAndFade 1s ease-in forwards;
 
     }
+
     .ic {
         display: none;
     }
@@ -521,8 +563,67 @@ h2 {
     .dropdown-tgle {
         display: block;
     }
-    .cd1{
+
+    .cd1 {
         padding-left: 1.5rem;
         width: 90%;
     }
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 1.2rem;
+
+    }
+    .cc{
+        margin-top: 2rem;
+    }
+    .cd1{
+        margin-top: 6rem;
+    }
+    .dropdown-tgle {
+        display: block;
+    }
+
+    .dropdown:hover .dropdown-main {
+        display: block;
+    }
+
+    .dropdown:hover .dropdown-tgle {
+        display: none;
+    }
+}
+
+@media (max-width: 462px) {
+    .car1 {
+        height: 18rem;
+        width: 23rem;
+
+        animation: slideAndFade1 1s ease-in forwards;
+
+    }
+
+    .car2 {
+        height: 18rem;
+        width: 23rem;
+
+        animation: slideAndFade 1s ease-in forwards;
+
+    }
+
+    .car3 {
+        height: 18rem;
+        width: 23rem;
+
+        animation: slideAndFade1 1s ease-in forwards;
+
+    }
+
+    .car4 {
+        height: 18rem;
+        width: 23rem;
+        animation: slideAndFade 1s ease-in forwards;
+    }
+   
 }

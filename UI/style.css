@@ -423,8 +423,8 @@ img {
     }
 
     .card4 {
-        width: 398px;
-        height: 495px;
+        width: 390px;
+        height: 490px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.45);
         border-bottom: 0.75px solid #15496c;
     }
@@ -451,7 +451,6 @@ img {
 
     .dropdown-tgle {
         display: block;
-        position: relative;
     }
 
     .dropdown:hover .dropdown-main {
