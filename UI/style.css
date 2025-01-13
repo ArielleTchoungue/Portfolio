@@ -9,8 +9,6 @@ body {
 }
 
 .navbar-brand {
-    /* text-align: center;
-align-items: center; */
     font-size: larger;
     font-weight: bold;
 }
@@ -169,7 +167,6 @@ img {
 
 .skills {
     background-color: rgb(116, 57, 224);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: small;
     border-bottom: 0.5px solid #15496c;
     display: flex;
@@ -201,7 +198,7 @@ img {
 }
 
 .c6 {
-    width: 29%;
+    width: 27%;
 }
 
 .h2 {
@@ -367,7 +364,8 @@ img {
     }
 
     .c6 {
-        width: 100%;
+        width: 80%;
+        align-self: center;
         text-align: center;
         padding-bottom: 1%;
     }
@@ -404,12 +402,13 @@ img {
 
 @media (max-width: 554px) {
     .h1 {
-        font-size: 2.2rem;
-        padding-top: 1.5rem;
+        font-size: 2.6rem;
+        padding-bottom: 1.5rem;
     }
 
-    .h2 {
+    .h4 {
         font-size: 1.5rem;
+        padding-bottom: 1.1rem;
     }
 
     .bt {
@@ -417,9 +416,11 @@ img {
         padding: 0.5rem;
     }
 
+
     .card3 {
         width: 100%;
-        margin-bottom: 4rem;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
     }
 
     .card4 {
@@ -459,6 +460,16 @@ img {
 
     .dropdown:hover .dropdown-tgle {
         display: none;
+    }
+
+}
+
+@media (max-width: 414px) {
+    .card4 {
+        width: 340px;
+        height: 440px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.45);
+        border-bottom: 0.75px solid #15496c;
     }
 
 
