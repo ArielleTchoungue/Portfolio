@@ -439,7 +439,8 @@ h2 {
     }
 
     .c6 {
-        width: 100%;
+        width: 80%;
+        align-self: center;
         text-align: center;
         padding-bottom: 1%;
     }
@@ -524,6 +525,10 @@ h2 {
         animation: slideAndFade1 1s ease-in forwards;
 
     }
+    .bt {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
 
     .car2 {
         height: 20rem;
@@ -597,7 +602,7 @@ h2 {
 
 @media (max-width: 462px) {
     .car1 {
-        height: 18rem;
+        height: 15rem;
         width: 23rem;
 
         animation: slideAndFade1 1s ease-in forwards;
@@ -605,7 +610,7 @@ h2 {
     }
 
     .car2 {
-        height: 18rem;
+        height: 15rem;
         width: 23rem;
 
         animation: slideAndFade 1s ease-in forwards;
@@ -613,7 +618,7 @@ h2 {
     }
 
     .car3 {
-        height: 18rem;
+        height: 15rem;
         width: 23rem;
 
         animation: slideAndFade1 1s ease-in forwards;
@@ -621,7 +626,7 @@ h2 {
     }
 
     .car4 {
-        height: 18rem;
+        height: 15rem;
         width: 23rem;
         animation: slideAndFade 1s ease-in forwards;
     }

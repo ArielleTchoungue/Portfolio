@@ -122,7 +122,6 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
-
     border: none;
     margin-top: 6%;
     width: 100%;
@@ -237,6 +236,9 @@ h3{
     width: auto;
     padding: 1rem;
 }
+.hidden{
+    display: none;
+}
 
 .icc {
     background: linear-gradient(45deg, rgb(73, 115, 253), rgb(120, 4, 245));
@@ -284,15 +286,16 @@ h3{
 
     }
     .c6 {
-        width: 100%;
+        width: 80%;
+        align-self: center;
         text-align: center;
         padding-bottom: 1%;
     }
 
     .ist {
         display: flex;
-        flex-direction: column;  
-        justify-content: center;  
+        flex-direction: column;
+        justify-content: center;
     }
 
 }
@@ -326,6 +329,10 @@ h3{
         text-align: justify;
 
     }
+    .bt {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
     .cd1{
         margin-top: 5rem;
     }
@@ -343,7 +350,15 @@ h3{
 @media (max-width: 452px) {
     .cd2{
         height: 19rem;
-        width: 23rem;    }
+        width: 23rem; 
+       }
+       .hidden{
+        display: block;
+        font-size: 1.2rem;
+       }
+       h2{
+        display: none;
+       }
     
    
 }
